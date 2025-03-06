@@ -1,5 +1,7 @@
 package redesApp;
 
+import redesApp.service.ServidorService;
+
 /**
  *
  * @author jessi
@@ -11,6 +13,7 @@ public class Servidor {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        new ServidorService();
     }
     
 }
